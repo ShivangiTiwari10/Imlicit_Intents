@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Imlicit Intents</string>
     <string name="make_a_call">Make a call</string>
+    <string name="camera">Camera</string>
+    <string name="web">Web</string>
 </resources>
