@@ -20,6 +20,12 @@ class MainActivity : AppCompatActivity() {
             }
             startActivity(callIntent)
         }
+
+        binding.cardWeb.setOnClickListener {
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse("https://saumyasingh.netlify.app/")
+            startActivity(intent)
+        }
         setContentView(binding.root)
     }
 }
